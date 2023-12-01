@@ -24,7 +24,7 @@ const Index = () => {
           ⚡️
         </span>{' '}
         Made with Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged,
-        VSCode, Netlify, PostCSS, Tailwind CSS.
+        VSCode, PostCSS, Tailwind CSS.
       </p>
       <h2 className="text-lg font-semibold">Next js Boilerplate Features</h2>
       <p>Developer experience first:</p>

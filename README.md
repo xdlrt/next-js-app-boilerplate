@@ -1,6 +1,6 @@
-# Boilerplate and Starter for Next JS 12+, Tailwind CSS 3 and TypeScript 
+# Boilerplate and Starter for Next JS 14+, Tailwind CSS 3 and TypeScript 
 
-🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, Netlify, PostCSS, Tailwind CSS.
+🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Testing Library, Commitlint, VSCode, PostCSS, Tailwind CSS.
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project.
 
@@ -40,7 +40,7 @@ Built-in feature from Next.js:
 
 ### Requirements
 
-- Node.js 14+ and npm
+- Node.js 18+ and PNPM
 
 ### Getting started
 
@@ -49,13 +49,13 @@ Run the following command on your local environment:
 ```shell
 git clone --depth=1 https://github.com/xdlrt/next-js-app-boilerplate.git my-project-name
 cd my-project-name
-npm install
+pnpm install
 ```
 
 Then, you can run locally in development mode with live reload:
 
 ```shell
-npm run dev
+pnpm run dev
 ```
 
 Open http://localhost:3000 with your favorite browser to see your project.
@@ -93,8 +93,8 @@ You can easily configure Next js Boilerplate. Please change the following file:
 You can see the results locally in production mode with:
 
 ```shell
-$ npm run build
-$ npm run start
+$ pnpm run build
+$ pnpm run start
 ```
 
 The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
